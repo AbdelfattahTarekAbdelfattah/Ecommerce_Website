@@ -1,0 +1,144 @@
+header{
+    background-color: #15161D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: #fff;
+}
+.input input{
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.input button{
+    padding: 11px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #D10024;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    right: 10px;
+
+}
+.input button:hover{
+    background-color: #b8001f;
+}
+.header-i{
+    width: 100px;
+    text-align: center;
+}
+.header-i i{
+   font-size: 20px;
+   margin: 5px 0;
+}
+.hr{
+    background-color: #D10024 !important;
+    width: 100%;
+    margin: auto;
+    height: 4px;
+}
+.down-header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.down-header ul li{
+    list-style-type: none;
+}
+.down-header ul li .a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.active{
+    color: #D10024;
+    font-size: 20px;
+}
+.down-header ul li .a:hover{
+    color: #D10024;
+    text-decoration: underline;
+}
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px 0;
+}
+.home img{
+    width: 250px;
+    transition: 0.3s;
+}
+.home div{
+    border: 1px solid #555;
+    padding: 20px;
+    overflow: hidden;
+}
+.home img:hover{
+    transform: scale(1.1);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.card{
+    width: 25%;
+    border: 2px solid #555;
+    padding: 20px;
+    transition: 0.3s;
+}
+.card div img{
+    width: 100%;
+}
+.card a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+.card a:hover{
+    color: #D10024;
+}
+.card:hover{
+    border: 2px solid #D10024;
+}
+.card span{
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 40%;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #15161D;
+    color: #fff;
+}
+footer ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    margin: 15px 0;
+}
+footer ul li:hover{
+    color: #D10024;
+}
